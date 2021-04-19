@@ -11,6 +11,9 @@ In this repo you can find:
 - [Mapping from diagnosis code to English/Spanish description](./diagnoses)
 - [Mapping from procedure code to English/Spanish description](./procedures)
 
+Additionally if you are interested in the representation of ICD codes (as graphs and with embeddings), please check [this repo](https://github.com/tamycova/ICD-embeddings)
+
+
 ## ICD-10 2008
 
 Scraped from the [WHO's (World Health Organization) website](https://icd.who.int/browse10/2008/en) using their JSON API. It was scraped using BFS so the JSON file also contains the graph representation of the codes (it includes a parent attribute and a boolean for leaf nodes). The file is the full representation, with not only leaf nodes but intermediate nodes.
